@@ -1,0 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900'); */
+
+.wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+  
+  .wrapper .MuiGrid-item {
+    min-width: 250px; /* Ensure a minimum width for each card */
+    flex: 0 0 auto;   /* Prevent shrinking and growing */
+    margin-right: 1rem; /* Add spacing between cards */
+  }
